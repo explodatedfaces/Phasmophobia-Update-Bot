@@ -27,7 +27,8 @@ namespace Phasmophobia_Update_Bot.Handlers
         public static async Task GuildReceived
             (DiscordClient client, MessageCreateEventArgs m)
         {
-            List<string> words = m.Message.Content.Split(' ').ToList();
+            string message = m.Message.Content.ToLower();
+            List<string> words = message.Split(' ').ToList();
             if (words.Intersect(when).Any() && words.Intersect(update).Any())
             {
                 await m.Channel.SendMessageAsync($"{m.Author.Mention} The update releases: " +
