@@ -53,6 +53,7 @@ namespace Phasmophobia_Update_Bot
             }
             else
             {
+                recursiveRestarts++;
                 var errorReported = Task.Run(() =>
                     Custom.Error($"The bot unexpectedly stopped {recursiveRestarts} times... " +
                     $"no more attemps left."));
