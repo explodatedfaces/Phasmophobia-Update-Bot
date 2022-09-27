@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Phasmophobia_Update_Bot.Variables
+﻿namespace Phasmophobia_Update_Bot.Variables
 {
     internal class VariableList
     {
