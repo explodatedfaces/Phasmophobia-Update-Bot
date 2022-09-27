@@ -1,0 +1,1 @@
+# Phasmophobia Update Bot
