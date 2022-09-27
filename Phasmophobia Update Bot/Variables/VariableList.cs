@@ -4,5 +4,6 @@
     {
         public static string UpdateTime = File.ReadAllTextAsync("./timestamp.txt").Result;
         public static string BotToken = File.ReadAllTextAsync("./token.txt").Result;
+        public static int UpdateEpochTime = int.Parse(UpdateTime);
     }
 }
