@@ -6,6 +6,6 @@ This bot is intended to respond to Discord messages which clearly indicate the m
 3. Obtain your token from Discord via the process in step 2
 4. After building create a text file called "token.txt" in the same directory as the executable
 5. Put your token code from step 3 into this text file
-6. Create a text file called "updatetime.txt" in the same directory as the executable
+6. Create a text file called "timestamp.txt" in the same directory as the executable
 7. Put an epoch timestamp into the updatetime file. Below is an example:
 >1664276400
